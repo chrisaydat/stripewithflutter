@@ -11,6 +11,7 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('StripeWithFlutter'),
         backgroundColor: Colors.pink,
+        leading: const Icon(Icons.money),
       ),
       body: ListView(
           children: [
